@@ -5,12 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-    <header class="header"></header>
-    <main class="main">
-        <p>CV will be soon</p>
+    <header class="header">
+       <div class="container">
+       <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          </ul>
+    </nav>
+    </div>
+    </header>
+    <main class="main main-container">
+    <div class="container column">
+    <div class="left-column">
+           <figure class="photo">
+           <img src="assets/img/cv-photo.png" alt="photo" width=330 height=520>  
+           </figure>
+            <section class="section section-contacts" id="contacts">
+                <h2 class="section-title h2">Contacts _</h2>
+                <ul class="contact-list">
+                    <li class="contact-item">Email: <a href="mailto:valeriakalentieva@gmial.com" class="contact-link">valeriakalentieva@gmial.com</a></li>
+                    <li class="contact-item">LinkedIn: <a href="https://www.linkedin.com/in/valeriia-kalenteva-3a760173/" target="_blank" class="contact-link">Valeriia Kalenteva</a></li>
+                    <li class="contact-item">GitHub: <a href="https://github.com/veleri-ka" target="_blank" class="contact-link">veleri-ka</a></li>
+                    <li class="contact-item">Discord: vally(@veleri-ka)</li>
+                </ul>
+             </section>
+                 
+            <section class="section section-education" id="education">
+                <h2 class="section-title">Education _</h2>
+                <p>Samara State Academy of Social Sciences and Humanities
+                 <br>Psychology</p>
+            </section>
+    </div>
+
+    <div class="right-column"> 
+
+    <section class="section secton-profile" id="profile">
+        <h1 class="name h1">Valeria Kalentieva</h1>
+        <h2 class="position h2">Junior JS developer</h2>
+    </section>
+    
+    <section class="section section-summery" id="about-me">
+        <h2 class="section-title h2">About me _</h2>  
+        <p>I'm working in the IT-related field, as a community manager to engineers, and as you learn the specifics of the work a realized that development is more suitable direction to my future growth.
+        <br>I've just started but I see a lot of interesting and inspiring and a lot of challenges of cause.</p>
+    </section>
+
+    <section class="section section-experience" id="experience">
+        <h2 class="section-title h2">Experience _</h2>   
+          <ul class="experience-list">
+            <li class="experience-item">Non IT</li>
+            <li class="experience-item"> <em>Nov 2018 - Present</em></li>
+            <li class="experience-item">Community manager/Event manager</li>
+            <li class="experience-item"><em>2016 - Mar 2018</em></li>
+            <li class="experience-item">HR Assistant</li>
+            <li class="experience-item"><em>2012 - Mar 2016</em></li>
+            <li class="experience-item">Recruter</li>
+          </ul>
+    </section>
+
+    <section class="section section-skills" id="skills">
+        <h2 class="section-title h2">Skills _</h2> 
+        <ul class="skills-list">
+            <li class="skills-item">HTML5, CSS3</li>
+            <li class="skills-item">Git, GitHub</li>
+            <li class="skills-item">VS Code</li>
+            <li class="skills-item">Figma</li>
+        </ul>
+    </section>
+
+    <section class="section section-projects" id="projects">
+        <h2 class="section-title h2">Projects _</h2> 
+        <a href="https://veleri-ka.github.io/rsschool-cv/cv" class="projects-link" target="_blank">CV</a>
+    </section>
+
+     <section class="section section-code" id="code-example">
+      <h2 class="section-title h2">Code example _</h2> 
+    <pre><code class="code-example">function multiply(a, b) {
+    return a * b
+    } </code></pre>
+      </section>
+    
+    <section class="section section-courses" id="courses">
+         <h2 class="section-title h2">Courses _</h2>
+         <p><a href="https://webref.ru/" class="courses-link" target="_blank"> Webref.ru</a> <a href="https://ru.code-basics.com/" class="courses-link" target="_blank"> Code Basics</a> - HTML, CSS basic</p>
+    </section>
+    
+    <section class="section section-lang" id="languages">
+        <h2 class="section-title h2">Languages _</h2>
+         <ul>
+            <li>Russian - native</li>
+            <li>English - B2</li>
+            <li>Czech - A2</li>
+         </ul>  
+   </section>
+</div>
+</div>
     </main>
-    <footer class="footer"></footer>
+
+<footer class="footer">
+<div class="container">
+    <div class="footer-item"></div>
+    <span class="year">2022</span> 
+    <img src="assets/img/github-logo.png" alt="github logo" class="footer-gh-logo" width="50" height="50">
+    <a href="https://github.com/veleri-ka" class="footer-link-gh" target="_blank">veleri-ka</a>
+    <a href="https://rs.school/js/" class="footer-link-rss" target="_blank"> <img src="assets/svg/rs_school_js.svg" alt="RS School logo" width="100" height="50"></a>
+</div>
+</footer>
 </body>
 </html>
