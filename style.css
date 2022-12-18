@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    src: url("assets/fonts/Montserrat-regular.ttf");
+    
+  }
+  
+/*position*/
+
+  body {
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+  .column {
+    display: flex;
+  }
+
+ figure {
+    width: 100%;
+    padding: 0px;
+    width: 100%; 
+    height: 520px;
+    margin: 0; 
+  }
+
+ figure img { 
+   width: 100%; 
+   height: 100%; 
+   object-fit: cover;
+  }
+  
+  
+  .left-column {
+    width: 25%;
+    background-color:#2e2f31;
+    color: #ffffff;
+
+  }
+  
+
+  .right-column {
+    width: 75%;
+    padding: 40px;
+    margin-top: 0px;
+    background-color: #ffffff;
+    color:#2e2f31; 
+  }
+ 
+
+  /*Navigation*/
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #2e2f31;
+    font-size: 14px;
+    transition: color 0.5s;  
+  }
+  .nav-link:hover {
+    color: #c9bf07;
+    font-weight:bold;
+  }
+
+  .nav-link {
+    transition: .3s;
+  }
+
+
+  /*links*/
+  .section-item a {
+    color: #2e2f31;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  
+
+ .section-contacts {
+    padding: 40px;
+    list-style: none;
+
+ }
+ .contact-list {
+    margin-left: 0;
+    padding-left: 0;
+ }
+
+.contact-item {
+    list-style: none; 
+    line-height: 40px;
+}
+
+.contact-link {
+    transition: 0.3s;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    transition: color 0.5s;  
+  }
+  .contact-link:hover {
+    color: #c9bf07;
+    font-weight:bold;
+  }
+
+  .nav-link {
+    transition: .3s;
+  }
+
+
+
+ .section-education {
+    padding: 40px;
+    color: #ffffff;
+    font-size: 16px;
+ }
+
+.name {
+    font-size: 60px; 
+    font-weight: bold;
+    margin-top: 0px
+}
+
+.position {
+    font-size: 30px; 
+    font-weight: lighter;
+    text-transform: uppercase;   
+}
+
+.section-summery {
+    margin-top: 50px;
+}
+
+.section-experience {
+    margin-top: 50px;
+
+}
+
+.experience-list {
+    margin-left: 0;
+    padding-left: 0;
+ }
+
+ .experience-item {
+    list-style: none; 
+    line-height: 40px;
+}
+
+.section-skills {
+    margin-top: 50px; 
+}
+
+.section-projects {
+    margin-top: 50px;   
+}
+
+.projects-link {
+    margin-left: 0px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #2e2f31;
+    font-size: 16px;
+    transition: color 0.5s; 
+}
+
+ .projects-link:hover {
+    color: #c9bf07;
+    font-weight:bold;
+  }
+
+  .projects-link {
+    transition: .3s;
+  }
+
+
+
+
+.section-code {
+    margin-top: 50px;   
+}
+
+.section-courses {
+    margin-top: 50px; 
+}
+
+.courses-link {
+    transition: 0.3s;
+    text-decoration: none;
+    color: #2e2f31;
+    font-size: 16px;
+    transition: color 0.5s;  
+  }
+  .courses-link:hover {
+    color: #c9bf07;
+    font-weight:bold;
+  }
+
+  .courses-link {
+    transition: .3s;
+  }
+
+ .section-lang {
+    margin-top: 50px; 
+ }
+
+ .section-title {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+   
+  }
+
+  
+  /*Footer*/
+  .footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: #ffffff;
+    
+}
+
+  .footer-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .year {
+  margin-right: 20px;
+  }
+
+  .footer a {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+}
+
+.footer-link-gh {
+    margin-left: 0px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #2e2f31;
+    font-size: 16px;
+    transition: color 0.5s; 
+}
+
+  .footer-link-gh:hover {
+    color: #c9bf07;
+    font-weight:bold;
+  }
+
+  .footer-link-gh {
+    transition: .3s;
+  }
