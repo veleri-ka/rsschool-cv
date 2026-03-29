@@ -87,7 +87,7 @@
   }
   .nav-link:hover {
     color: #c9bf07;
-    font-weight:bold;
+    text-shadow: 0 0 1px currentColor;
   }
 
   .nav-link {
@@ -127,7 +127,7 @@
   }
   .contact-link:hover {
     color: #c9bf07;
-    font-weight:bold;
+    text-shadow: 0 0 1px currentColor;
   }
 
   .nav-link {
@@ -200,8 +200,6 @@
   }
 
 
-
-
 .section-code {
     margin-top: 50px;   
 }
@@ -219,7 +217,7 @@
   }
   .courses-link:hover {
     color: #c9bf07;
-    font-weight:bold;
+    text-shadow: 0 0 1px currentColor;
   }
 
   .courses-link {
@@ -277,7 +275,7 @@
 
   .footer-link-gh:hover {
     color: #c9bf07;
-    font-weight:bold;
+    text-shadow: 0 0 1px currentColor;
   }
 
   .footer-link-gh {
